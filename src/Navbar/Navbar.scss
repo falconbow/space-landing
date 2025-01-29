@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 3;
   }
   &_logo {
     background: url("../assets/icons/logo.svg") no-repeat;
@@ -58,13 +59,14 @@
         width: 32px;
         height: 38px;
         opacity: 0;
-        z-index: 2;
+        z-index: 4;
+        right: 10px;
       }
       &-checkbox:checked ~ .navbar_content__hamburger-icon {
         background: url("../assets/icons/cross.svg");
       }
       &-checkbox:checked ~ .menu {
-        bottom: 0;
+        left: 0;
       }
     }
   }
@@ -72,12 +74,13 @@
 
 .menu {
   position: fixed;
-  bottom: calc(-100vh + 48px);
-  left: 0;
-  background-color: $black;
+  left: 100vh;
+  // background-color: $black;
+  background: transparent;
+  backdrop-filter: blur(20px);
   width: 100vw;
   height: calc(100vh - 48px);
-  transition: bottom 0.5s ease-in-out;
+  transition: left 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: center;
