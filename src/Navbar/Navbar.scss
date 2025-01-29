@@ -67,7 +67,7 @@
         background: url("../assets/icons/cross.svg");
       }
       &-checkbox:checked ~ .menu {
-        left: 0;
+        bottom: 0;
       }
     }
   }
@@ -75,18 +75,18 @@
 
 .menu {
   position: fixed;
-  left: 100vh;
-  // background-color: $black;
   background: transparent;
   backdrop-filter: blur(50px);
   width: 100vw;
-  bottom: 0;
+  bottom: -100vh;
+  left: 0;
   height: calc(100vh - 48px);
-  transition: left 0.5s ease-in-out;
+  transition: bottom 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 1;
   &_item {
     color: $white;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6), 0 0 30px rgba(0, 0, 0, 0.5);
@@ -101,12 +101,10 @@
   }  
 }
 
-
 @media (max-width: 768px) {
   .navbar {
     &_wrapper {
       height: 48px;
-
     }
     &_logo {
       margin-left: 10px;

@@ -1,6 +1,13 @@
 import "./Description.scss";
+import { useState } from "react";
 
 export const Description = () => {
+  const [shouldShowMoreText, setShouldShowMoreText] = useState(false);
+
+  const toggleMoreText = () => {
+    setShouldShowMoreText(!shouldShowMoreText);
+  };
+
   return (
     <div className="description">
       <h1 className="description_title">Embark on a space journey</h1>
@@ -16,7 +23,10 @@ export const Description = () => {
         fully enjoy your adventure in space. We offer various options for space
         excursions.
       </p>
-      <a className="description_link">Read more</a>
+      {shouldShowMoreText && <p description_content>More text here</p>}
+      <a className="description_link" onClick={toggleMoreText}>
+        {shouldShowMoreText ? "Collapse" : "Read more"}
+      </a>
     </div>
   );
 };
