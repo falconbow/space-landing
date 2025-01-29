@@ -23,10 +23,12 @@ export const Description = () => {
         fully enjoy your adventure in space. We offer various options for space
         excursions.
       </p>
-      {shouldShowMoreText && <p description_content>More text here</p>}
-      <a className="description_link" onClick={toggleMoreText}>
+      {shouldShowMoreText && (
+        <p className="description_content">More text here</p>
+      )}
+      <div className="description_link" onClick={toggleMoreText}>
         {shouldShowMoreText ? "Collapse" : "Read more"}
-      </a>
+      </div>
     </div>
   );
 };
