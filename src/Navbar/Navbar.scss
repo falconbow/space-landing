@@ -1,0 +1,135 @@
+@import "../sass/colors.scss";
+
+.navbar {
+  &_wrapper {
+    background: $black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  &_logo {
+    background: url("../assets/icons/logo.svg") no-repeat;
+    background-size: contain;
+    width: 105px;
+    height:37px;
+    margin-left: 50px;
+  }
+  &_content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+
+    &__link {
+      color: $white;
+      font-size: 18px;
+      margin-right: 20px;
+    }
+    &__link:hover {
+      background: linear-gradient(98.25deg, #EBFF00 18.56%, #FF70D9 76.02%);
+      background-clip: text;
+      color: transparent;   
+      cursor: pointer;
+    }
+    &__cart {
+      background: url("../assets/icons/cart.svg");
+      width: 24px;
+      height: 20px;
+      margin-right: 50px;
+    }
+    &__cart:hover {
+      cursor: pointer;
+      background: url("../assets/icons/cart_colored.svg");
+    }
+    &__hamburger {
+      position: relative;
+      display: none;
+      &-icon {
+        background: url("../assets/icons/hamburger.svg");
+        position: relative;
+        width: 32px;
+        height: 38px;
+        margin-right: 10px;
+      }
+      &-checkbox {
+        position: absolute;
+        width: 32px;
+        height: 38px;
+        opacity: 0;
+        z-index: 2;
+      }
+      &-checkbox:checked ~ .navbar_content__hamburger-icon {
+        background: url("../assets/icons/cross.svg");
+      }
+      &-checkbox:checked ~ .menu {
+        bottom: 0;
+      }
+    }
+  }
+}
+
+.menu {
+  position: fixed;
+  bottom: calc(-100vh + 48px);
+  left: 0;
+  background-color: $black;
+  width: 100vw;
+  height: calc(100vh - 48px);
+  transition: bottom 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_item {
+    color: $white;
+    font-size: 30px;
+    margin: 30px;
+    &__cart {
+      margin: 30px;
+
+      background: url("../assets/icons/cart.svg");
+      width: 24px;
+      height: 20px;
+    }
+    &__cart:hover {
+      cursor: pointer;
+      background: url("../assets/icons/cart_colored.svg");
+    }
+  }
+  &_item:hover {
+    background: linear-gradient(98.25deg, #EBFF00 18.56%, #FF70D9 76.02%);
+    background-clip: text;
+    color: transparent;   
+    cursor: pointer;
+  }  
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    &_wrapper {
+      height: 48px;
+
+    }
+    &_logo {
+      margin-left: 10px;
+      width: 72px;
+      height: 24px;
+    }
+    &_content {
+      width: auto;
+      &__link {
+        display: none;
+      }
+      &__cart {
+        display: none;
+      }
+      &__hamburger {
+        display: block;
+        margin-right: 10px;
+      }
+    }
+  }
+}
