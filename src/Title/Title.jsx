@@ -1,6 +1,6 @@
-import "./Description.scss";
+import "./Title.scss";
 
-export const Description = () => {
+export const Title = () => {
   return (
     <div className="title">
       <div className="title_header">

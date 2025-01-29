@@ -1,0 +1,55 @@
+@import "../sass/colors.scss";
+
+.description {
+  background: $blue;
+  text-align: start;
+  padding: 40px;
+  color: $white;
+  &_title {
+    font-size: 32px;
+  }
+  &_content {
+    font-size: 20px;
+  }
+  &_link {
+    font-size: 20px;
+    color: $green;
+  }
+  &_link:hover {
+    filter: brightness(60%);
+    cursor: pointer;
+  }
+}
+@media(max-width: 1000px) {
+  .description {
+    padding: 20px;
+
+    &_title {
+      font-size: 24px;
+    }
+    &_content{
+      font-size: 16px;
+
+    }
+    &_link {
+      font-size: 16px;
+
+    }
+  }
+}
+@media(max-width: 600px) {
+  .description {
+    &_title {
+      font-size: 18px;
+
+    }
+    &_content{
+      font-size: 14px;
+
+    }
+    &_link {
+      font-size: 14px;
+
+    }
+  }
+}
