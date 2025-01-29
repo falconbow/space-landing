@@ -1,6 +1,5 @@
 import "./Grid.scss";
 import { dataForTiles } from "./tiles";
-import { useRef } from "react";
 
 export const Grid = () => {
   return (
