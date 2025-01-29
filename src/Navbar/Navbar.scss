@@ -3,12 +3,13 @@
 .navbar {
   &_wrapper {
     background: $black;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
+    top: 0;
     z-index: 3;
   }
   &_logo {

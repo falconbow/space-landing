@@ -4,6 +4,7 @@ import "./App.scss";
 import { Grid } from "./Grid/Grid";
 import { Title } from "./Title/Title";
 import { Description } from "./Decription/Description";
+import { Footer } from "./Footer/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Title />
       <Grid />
       <Description />
+      <Footer />
     </div>
   );
 };

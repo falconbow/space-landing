@@ -1,0 +1,21 @@
+@import "../sass/colors.scss";
+
+.footer {
+  bottom: 0;
+  height: 127px;
+  width: 100%;
+  background: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_rocket {
+    background: url("../assets/images/rocket.png");
+    width: 80px;
+    height: 80px;
+  }
+  &_text {
+    color: $green;
+    font-size: 18px;
+  }
+}

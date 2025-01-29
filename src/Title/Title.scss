@@ -33,11 +33,17 @@
       width: 191px;
       height: 54px;
       font-size: 22px;
+      border: none;
+
+    }
+    &__button:hover {
+      filter: brightness(60%);
+      cursor: pointer;
     }
   }
   &_image {
     background: url("../assets/images/earth.png") no-repeat;
-    width: 327px;
+    width: 340px;
     height: 366px;
     margin-top: 70px;
     justify-self: center;
@@ -72,8 +78,8 @@
     grid-template-rows: 50% 50%;
     grid-template-columns: none;
     &_header {
-      order:2;
-      margin: 0 20px 50px 20px;
+      order: 2;
+      margin: 0 20px 0 20px;
       text-align: center;
       &__title {
         font-size: 36px;
