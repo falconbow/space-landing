@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space-landing/static/css/main.012ee4b2.css",
-    "main.js": "/space-landing/static/js/main.0b6266e9.js",
+    "main.css": "/space-landing/static/css/main.fe857472.css",
+    "main.js": "/space-landing/static/js/main.674d24bf.js",
     "static/media/title.png": "/space-landing/static/media/title.4aab6891aa0154909619.png",
     "static/media/space-3.png": "/space-landing/static/media/space-3.6706aaeb63600bc0137a.png",
     "static/media/space-2.png": "/space-landing/static/media/space-2.ec78630ecf510e1b5c05.png",
@@ -15,11 +15,11 @@
     "static/media/hamburger.svg": "/space-landing/static/media/hamburger.7e65dcdbfcb4fb7f60ea.svg",
     "static/media/cross.svg": "/space-landing/static/media/cross.60d4f41347544050a7b9.svg",
     "index.html": "/space-landing/index.html",
-    "main.012ee4b2.css.map": "/space-landing/static/css/main.012ee4b2.css.map",
-    "main.0b6266e9.js.map": "/space-landing/static/js/main.0b6266e9.js.map"
+    "main.fe857472.css.map": "/space-landing/static/css/main.fe857472.css.map",
+    "main.674d24bf.js.map": "/space-landing/static/js/main.674d24bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.012ee4b2.css",
-    "static/js/main.0b6266e9.js"
+    "static/css/main.fe857472.css",
+    "static/js/main.674d24bf.js"
   ]
 }
