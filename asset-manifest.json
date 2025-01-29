@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/space-landing/static/css/main.f1621593.css",
-    "main.js": "/space-landing/static/js/main.b2256bf4.js",
+    "main.css": "/space-landing/static/css/main.3f6fe7cf.css",
+    "main.js": "/space-landing/static/js/main.501a30a8.js",
     "static/media/title.png": "/space-landing/static/media/title.4aab6891aa0154909619.png",
+    "static/media/space-3.png": "/space-landing/static/media/space-3.6706aaeb63600bc0137a.png",
+    "static/media/space-2.png": "/space-landing/static/media/space-2.ec78630ecf510e1b5c05.png",
+    "static/media/space-4.png": "/space-landing/static/media/space-4.7d8ce0354247b9bb234d.png",
+    "static/media/space-1.png": "/space-landing/static/media/space-1.f9610219b1ee53de40da.png",
     "static/media/Lato-Bold.ttf": "/space-landing/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
     "static/media/earth.png": "/space-landing/static/media/earth.bf5aa6ddfc8f186bfce4.png",
     "static/media/logo.svg": "/space-landing/static/media/logo.f4153131d3955bdfa609.svg",
@@ -11,11 +15,11 @@
     "static/media/hamburger.svg": "/space-landing/static/media/hamburger.7e65dcdbfcb4fb7f60ea.svg",
     "static/media/cross.svg": "/space-landing/static/media/cross.60d4f41347544050a7b9.svg",
     "index.html": "/space-landing/index.html",
-    "main.f1621593.css.map": "/space-landing/static/css/main.f1621593.css.map",
-    "main.b2256bf4.js.map": "/space-landing/static/js/main.b2256bf4.js.map"
+    "main.3f6fe7cf.css.map": "/space-landing/static/css/main.3f6fe7cf.css.map",
+    "main.501a30a8.js.map": "/space-landing/static/js/main.501a30a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1621593.css",
-    "static/js/main.b2256bf4.js"
+    "static/css/main.3f6fe7cf.css",
+    "static/js/main.501a30a8.js"
   ]
 }
