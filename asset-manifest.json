@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/space-landing/static/css/main.3d0048ad.css",
-    "main.js": "/space-landing/static/js/main.31b6d4f2.js",
+    "main.css": "/space-landing/static/css/main.f1621593.css",
+    "main.js": "/space-landing/static/js/main.b2256bf4.js",
+    "static/media/title.png": "/space-landing/static/media/title.4aab6891aa0154909619.png",
     "static/media/Lato-Bold.ttf": "/space-landing/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "static/media/earth.png": "/space-landing/static/media/earth.bf5aa6ddfc8f186bfce4.png",
     "static/media/logo.svg": "/space-landing/static/media/logo.f4153131d3955bdfa609.svg",
     "static/media/cart_colored.svg": "/space-landing/static/media/cart_colored.130703b7b0cf9871648f.svg",
     "static/media/cart.svg": "/space-landing/static/media/cart.5fdc8f10c95015c32240.svg",
     "static/media/hamburger.svg": "/space-landing/static/media/hamburger.7e65dcdbfcb4fb7f60ea.svg",
     "static/media/cross.svg": "/space-landing/static/media/cross.60d4f41347544050a7b9.svg",
     "index.html": "/space-landing/index.html",
-    "main.3d0048ad.css.map": "/space-landing/static/css/main.3d0048ad.css.map",
-    "main.31b6d4f2.js.map": "/space-landing/static/js/main.31b6d4f2.js.map"
+    "main.f1621593.css.map": "/space-landing/static/css/main.f1621593.css.map",
+    "main.b2256bf4.js.map": "/space-landing/static/js/main.b2256bf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d0048ad.css",
-    "static/js/main.31b6d4f2.js"
+    "static/css/main.f1621593.css",
+    "static/js/main.b2256bf4.js"
   ]
 }
