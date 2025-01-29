@@ -78,8 +78,9 @@
   left: 100vh;
   // background-color: $black;
   background: transparent;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(50px);
   width: 100vw;
+  bottom: 0;
   height: calc(100vh - 48px);
   transition: left 0.5s ease-in-out;
   display: flex;
@@ -88,19 +89,9 @@
   align-items: center;
   &_item {
     color: $white;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6), 0 0 30px rgba(0, 0, 0, 0.5);
     font-size: 30px;
     margin: 30px;
-    &__cart {
-      margin: 30px;
-
-      background: url("../assets/icons/cart.svg");
-      width: 24px;
-      height: 20px;
-    }
-    &__cart:hover {
-      cursor: pointer;
-      background: url("../assets/icons/cart_colored.svg");
-    }
   }
   &_item:hover {
     background: linear-gradient(98.25deg, #EBFF00 18.56%, #FF70D9 76.02%);

@@ -12,7 +12,7 @@ export const Grid = () => {
             className={`offers_grid__cell ${tile.single ? "single" : "double"}`}
             key={tile.id}
             style={{
-              background: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(15, 20, 32, 0.79) 100%), url(${tile.picture})`,
+              background: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(15, 20, 32, 0.79) 100%), url(${tile.picture}) no-repeat`,
               backgroundSize: "cover",
             }}
           >

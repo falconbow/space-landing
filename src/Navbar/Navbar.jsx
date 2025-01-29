@@ -18,7 +18,7 @@ export const Navbar = () => {
             <div className="menu">
               <div className="menu_item">Home</div>
               <div className="menu_item">Products</div>
-              <div className="menu_item__cart"></div>
+              <div className="menu_item">Cart</div>
             </div>
           </div>
         </div>
